@@ -1,0 +1,42 @@
+
+.appbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo img {
+    padding: 10px;
+    height: 30px;
+    width: 50%;
+  }
+  
+  .search-bar .search-input {
+    width: 250px;
+    padding: 10px;
+  }
+  
+  .menu-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .appbar-button {
+    margin: 0 10px;
+    background-color: #f1f1f1;
+    text-transform: capitalize;
+    padding: 10px 15px;
+    border-radius: 5px;
+  }
+  
+  .login-button {
+    background-color: #47c26d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
