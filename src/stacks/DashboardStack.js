@@ -6,10 +6,7 @@ import LoginScreen from "../Screens/LoginScreen.js/LoginScreen";
 const DashboardStack = () => {
     return (
         <Router>
-           
-            
-            <Routes>
-                
+            <Routes>  
                 <Route path="/" element={<Navigate to="/dashboard" />} />
                 <Route path="Dashboard" element={<Dashboard />} />
                 <Route path="Login" element={<LoginScreen />} />
