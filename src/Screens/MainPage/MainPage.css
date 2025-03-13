@@ -1,6 +1,54 @@
-.container{
-    flex-direction: column;
+
+.container {
+    width: 100%;
     display: flex;
-    background-color:white ;
-    overflow-y: 'scroll'
-}
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .events-title {
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  
+  .events-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+ 
+  .events-buttons .MuiButton-outlined {
+    margin: 5px;
+  }
+  
+  
+  .events-text {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 5px;
+  }
+  
+  
+  .hero-title {
+    color: #47c26d;
+    margin-right: 5px;
+    font-size: 30px;
+  }
+  
+
+  .hero-subtitle {
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  
+  .hero-image {
+    height: 40%;
+  }
+  

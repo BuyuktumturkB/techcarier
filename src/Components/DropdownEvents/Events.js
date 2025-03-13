@@ -1,16 +1,13 @@
-import react,{useState,useEffect} from "react";
+import React from "react";
+import { Button } from "@mui/material";
+import def from "ajv/dist/vocabularies/discriminator";
 
-const Events =({isVisible,OnClose}) =>
-    {
-        const [selectedEvent,setSelectedEvent]=null;
-
-        return(
-            <div style={{flexDirection:'collumn'}}>
-                <Button> Bootcamp</Button>
-                <Button> Hackathon</Button>
-                <Buton> Hiring Challenge</Buton>
-
-            </div>
-        )
-    };
+const Events =()=>{
+    return(
+        <div>
+            <Button>Bootcampler</Button>
+            <Button>Hackathon</Button>
+        </div>
+    )
+}
 export default Events;
