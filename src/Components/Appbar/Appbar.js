@@ -2,6 +2,7 @@ import React from 'react';
 import './Appbar.css';
 import { Button, TextField } from '@mui/material';
 import { useNavigate } from 'react-router-dom';  
+import LoginScreen from '../../Screens/LoginScreen.js/LoginScreen';
 
 const Appbar = ({ onClick }) => {
   
@@ -14,7 +15,7 @@ const Appbar = ({ onClick }) => {
 
   
   const handleLoginClick = () => {
-    navigate('Login');  
+    navigate('/login');  
   };
 
   return (
@@ -30,10 +31,14 @@ const Appbar = ({ onClick }) => {
         <TextField className="search-input" placeholder="Etkinlik, İş İlanı, Blog Ara" />
       </div>
       <div className="menu-buttons">
-        <Button className="appbar-button" onClick={() => handleClick('events')}>Etkinlikler</Button>
-        <Button className="appbar-button" onClick={() => handleClick('tutorials')}>Eğitimler</Button>
-        <Button className="appbar-button" onClick={() => handleClick('test')}>Testler</Button>
-        <Button className="appbar-button">Komünite</Button>
+        <Button className="appbar-button" onClick={() => handleClick('events')}>
+         <p style={{color:'black'}}> Etkinlikler </p>  </Button>
+        <Button className="appbar-button" onClick={() => handleClick('tutorials')}>
+        <p style={{color:'black'}}> Eğitimler </p> </Button>
+        <Button className="appbar-button" onClick={() => handleClick('test')}>
+        <p style={{color:'black'}}> Testler </p> </Button>
+        <Button className="appbar-button">
+        <p style={{color:'black'}}> Komünüte </p> </Button>
        
         <Button
           style={{ backgroundColor: "#47c26d", color: "white" }}
