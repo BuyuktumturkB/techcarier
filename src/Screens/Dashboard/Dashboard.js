@@ -28,7 +28,7 @@ const Dashboard = () => {
     };
 
     return (
-        <div className="container"> 
+        <div > 
             <Appbar onClick={handleClick} className="appbarStyle" />
             {fetchPage()}
         </div>
