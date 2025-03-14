@@ -1,0 +1,75 @@
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+  }
+  
+  .left-panel {
+    background-image: url('https://login.techcareer.net/images/techcareer-left-panel.svg');
+    background-size: cover;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    
+    align-items: center;
+    color: white;
+    padding: 20px;
+    flex-direction:'collumn';
+    
+  }
+  
+  .left-panel p {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .right-panel {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .right-panel h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .button-container .MuiButton-root {
+    width: '100%';
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  .button-container .MuiButton-root p {
+    color: gray;
+    margin-left: 10px;
+  }
+  
+  .button-container .MuiButton-root img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .default_btn {
+    background-color: #f2f2f2;
+  }
+  .text_fiedl{
+    width: 60%;
+    margin: 20px;
+  }
+  
+  
