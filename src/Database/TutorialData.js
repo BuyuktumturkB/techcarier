@@ -31,11 +31,15 @@ const tutorialData = [
     {
         title:'VPS (Sanal Özel Sunucu) Eğitimi',
         mentor:'Hamit Mızrak',
+        image:'https://www.techcareer.net/_next/image?url=https%3A%2F%2Fcdn.gcp.techcareer.net%2F360x180_sanalmakine_991f137fef%2F360x180_sanalmakine_991f137fef.png&w=384&q=75',
+        
         keywords:['DevOps','VPS','Gitlab'],
     },
     {
         title:'VPS (Sanal Özel Sunucu) Eğitimi',
         mentor:'Hamit Mızrak',
+        image:'https://www.techcareer.net/_next/image?url=https%3A%2F%2Fcdn.gcp.techcareer.net%2F360x180_sanalmakine_991f137fef%2F360x180_sanalmakine_991f137fef.png&w=384&q=75',
+        
         keywords:['DevOps','VPS','Gitlab'],
     },
 ];
