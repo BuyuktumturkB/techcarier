@@ -2,11 +2,12 @@ import React, { useState, useEffect } from "react";
 import TutorialCard from "../../Components/TutorialCard/TutorialCard.js";
 import tutorialData from "../../Database/TutorialData.js";
 import HeaderComponent from "../../Components/HeaderComponent/HeaderComponent.js";
+import { Button } from "@mui/material";
 
 const TutorialsScreen = () => {
     const [tutorials, setTutorials] = useState([]);
     const title = 'Eğitimler';
-    const description = 'Teknoloji dünyasındaki konular hakkında eğitim almak için doğru <br/> yerdesin. Eğitimleri takip et, tamamla ve yeteneklerini geliştir!';
+    const description = 'Teknoloji dünyasındaki konular hakkında eğitim almak için doğru yerdesin. Eğitimleri takip et, tamamla ve yeteneklerini geliştir!';
 
     useEffect(() => {
         setTutorials(tutorialData);
@@ -39,6 +40,18 @@ const TutorialsScreen = () => {
                         />
                     </div>
                 ))}
+            </div>
+            <div style={{justifyContent:'space-around', display:'flex', flexDirection:'row'}}>
+                <img alt='' src="https://www.techcareer.net/assets/images/redirection-area/quizzes-icon.svg"
+                />
+                <div>
+                    <h3>Testlerimizi Gördün mü </h3>
+                    <p>Teknoloji sektörüne özel hazırlanan ücretsiz teknoloji testleri ile teknik yetkinlikleri ölçmeye anında başla. </p>
+                </div>
+                <Button style={{backgroundColor:'#47c26d', height:50, width:150}}>
+                    <p style={{color:'white'}}>Hemen Keşfet</p>
+                </Button>
+
             </div>
         </div>
     );
